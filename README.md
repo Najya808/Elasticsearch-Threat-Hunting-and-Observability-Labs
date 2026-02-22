@@ -27,3 +27,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 09 — Building a Simple Kibana Dashboard](lab-09-building-a-simple-kibana-dashboard.md)
 - Built a simple Kibana dashboard, added existing Lens visualizations, and enhanced it with additional visualizations and saved searches for comprehensive data analysis.
+
+- [Lab 10 — Introduction to Filebeat](lab-10-introduction-to-filebeat.md)
+- Installed and configured Filebeat to monitor log files and forward them to Elasticsearch, ensuring logs are continuously collected for analysis and visualization.
