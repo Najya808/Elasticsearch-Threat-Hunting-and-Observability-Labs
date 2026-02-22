@@ -33,3 +33,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 11 — Introduction to Metricbeat](lab-11-introduction-to-metricbeat.md)
 - Installed and configured Metricbeat to collect system metrics, including CPU and memory usage, and sent the data to Elasticsearch for monitoring and visualization in Kibana.
+
+- [Lab 12 — Introduction to Packetbeat](lab-12-introduction-to-packetbeat.md)
+- Installed and configured Packetbeat to capture network traffic, enabling DNS or HTTP module monitoring, and visualized the collected data in Elasticsearch and Kibana.
