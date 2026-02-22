@@ -15,3 +15,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - (Lab_05_Understanding_Indices_Shards_Replicas.md)  
   Created and explored custom indices in Elasticsearch with different shard and replica settings, analyzing their impact on performance and fault tolerance.
+
+- (Lab_06_Basic_Kibana_Discover_Usage.md)  
+  Learned how to navigate Kibana Discover: selecting indices, applying filters, adjusting time ranges, sorting data, and saving custom search views for future use.
