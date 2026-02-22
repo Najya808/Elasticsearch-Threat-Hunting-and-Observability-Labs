@@ -24,3 +24,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - (Lab_8_Using_Kibana_Lens_for_Basic_Visualization.md)  
   Created basic visualizations in Kibana Lens, customized charts, applied time filters, and saved them for dashboard integration.
+
+- (Lab_9_Building_a_Simple_Kibana_Dashboard.md)  
+  Built a simple Kibana dashboard, added existing Lens visualizations, and enhanced it with additional visualizations and saved searches for comprehensive data analysis.
