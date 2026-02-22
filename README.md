@@ -6,3 +6,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - (Lab_02_Installing_Kibana.md)  
   Installed and configured Kibana to connect with an Elasticsearch instance, verifying successful integration for centralized log visualization and analysis.
+
+- (Lab_03_Basic_Elasticsearch_Querying.md)  
+  Performed fundamental Elasticsearch queries including listing indices, retrieving documents, and refining results using query parameters for effective data exploration.
