@@ -18,3 +18,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - (Lab_06_Basic_Kibana_Discover_Usage.md)  
   Learned how to navigate Kibana Discover: selecting indices, applying filters, adjusting time ranges, sorting data, and saving custom search views for future use.
+
+- (Lab_7_Creating_an_Index_Pattern.md)  
+  Created and validated an Elasticsearch index pattern in Kibana, enabling efficient data exploration and preparation for visualizations and dashboards.
