@@ -21,3 +21,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - (Lab_7_Creating_an_Index_Pattern.md)  
   Created and validated an Elasticsearch index pattern in Kibana, enabling efficient data exploration and preparation for visualizations and dashboards.
+
+- (Lab_8_Using_Kibana_Lens_for_Basic_Visualization.md)  
+  Created basic visualizations in Kibana Lens, customized charts, applied time filters, and saved them for dashboard integration.
