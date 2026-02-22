@@ -9,3 +9,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - (Lab_03_Basic_Elasticsearch_Querying.md)  
   Performed fundamental Elasticsearch queries including listing indices, retrieving documents, and refining results using query parameters for effective data exploration.
+
+- (Lab_04_Loading_Sample_Log_Data.md)  
+  Created structured sample logs and ingested them into Elasticsearch using Kibana upload and ingest pipelines, validating data parsing in Discover.
