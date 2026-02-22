@@ -12,3 +12,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - (Lab_04_Loading_Sample_Log_Data.md)  
   Created structured sample logs and ingested them into Elasticsearch using Kibana upload and ingest pipelines, validating data parsing in Discover.
+
+- (Lab_05_Understanding_Indices_Shards_Replicas.md)  
+  Created and explored custom indices in Elasticsearch with different shard and replica settings, analyzing their impact on performance and fault tolerance.
