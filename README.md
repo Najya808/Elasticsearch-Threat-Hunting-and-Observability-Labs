@@ -30,3 +30,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 10 — Introduction to Filebeat](lab-10-introduction-to-filebeat.md)
 - Installed and configured Filebeat to monitor log files and forward them to Elasticsearch, ensuring logs are continuously collected for analysis and visualization.
+
+- [Lab 11 — Introduction to Metricbeat](lab-11-introduction-to-metricbeat.md)
+- Installed and configured Metricbeat to collect system metrics, including CPU and memory usage, and sent the data to Elasticsearch for monitoring and visualization in Kibana.
