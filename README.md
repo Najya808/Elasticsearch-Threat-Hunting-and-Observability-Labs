@@ -36,3 +36,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 12 — Introduction to Packetbeat](lab-12-introduction-to-packetbeat.md)
 - Installed and configured Packetbeat to capture network traffic, enabling DNS or HTTP module monitoring, and visualized the collected data in Elasticsearch and Kibana.
+
+- [Lab 13 — Introduction to Heartbeat](lab-13-introduction-to-heartbeat.md)
+- Installed and configured Heartbeat to monitor host uptime using ICMP pings and visualized monitoring data in Kibana.
