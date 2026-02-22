@@ -3,3 +3,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - (Lab_01_Installing_Elasticsearch.md)  
   Learn to download, install, and configure Elasticsearch, verify the service, and understand basic cluster and network settings. This foundational lab prepares you for all subsequent Elasticsearch exercises in threat hunting and observability.
+
+- (Lab_02_Installing_Kibana.md)  
+  Installed and configured Kibana to connect with an Elasticsearch instance, verifying successful integration for centralized log visualization and analysis.
