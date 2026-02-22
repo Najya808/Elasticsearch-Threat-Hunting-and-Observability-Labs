@@ -39,3 +39,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 13 — Introduction to Heartbeat](lab-13-introduction-to-heartbeat.md)
 - Installed and configured Heartbeat to monitor host uptime using ICMP pings and visualized monitoring data in Kibana.
+
+- [Lab 14 — Elasticsearch Security Basics](lab-14-elasticsearch-security-basics.md)
+- Learned to manage user roles and access privileges in Elasticsearch, ensuring secure and controlled access to indices through Kibana.
