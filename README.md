@@ -48,3 +48,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 16 — Data Parsing with Logstash Grok](Lab_16_Data_Parsing_with_Logstash_Grok.md)
   Learned to configure Logstash with a Grok filter, parse unstructured logs, and forward structured data to Elasticsearch for visualization in Kibana.
+
+- [Lab 17 — Ingest Node Pipelines](Lab_17_Ingest_Node_Pipelines.md)
+  What I have learned: created ingest pipelines in Elasticsearch, assigned them to indices via Filebeat or direct ingestion, and verified transformed data in Kibana Discover.
