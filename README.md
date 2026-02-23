@@ -54,3 +54,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 18 — Data Retention with ILM (Index Lifecycle Management)](Lab_18_Data_Retention_with_ILM.md)  
   What I have learned: created and applied ILM policies in Elasticsearch, managed index lifecycle phases, and verified automatic index transitions in Kibana.
+
+- [Lab 19 — Intro to Elastic Security (SIEM) App](Lab_19_Intro_to_Elastic_Security_SIEM_App.md)  
+  What I have learned: navigated the Elastic Security (SIEM) app in Kibana, explored Hosts, Network, and Timelines views, and used SIEM features to analyze security data effectively.
