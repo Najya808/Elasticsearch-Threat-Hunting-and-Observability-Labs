@@ -1,40 +1,38 @@
-Lab_15_Adding_Syslog_Data_with_Filebeat.md
-Objectives
+# Lab 15: Adding Syslog Data with Filebeat
 
-Understand how to configure Filebeat to collect syslog data
+## Objectives
+- Understand how to configure Filebeat to collect syslog data.
+- Learn to enable and configure the necessary modules within Filebeat.
+- Ensure proper data ingestion into Elasticsearch.
+- Utilize Kibana to search and analyze syslog events.
 
-Enable and configure required Filebeat modules
+## Prerequisites
+- Basic knowledge of ELK stack (Elasticsearch, Logstash, and Kibana).
+- Familiarity with Linux command-line interface.
+- A running ELK stack environment.
+- Filebeat installed on the client machine.
 
-Ensure proper data ingestion into Elasticsearch
+## Materials Needed
+- An ELK stack setup
+- Filebeat installed on the system you’ll be collecting logs from
+- A syslog service running on the system
 
-Utilize Kibana to search and analyze syslog events
+## Lab Tasks
 
-Prerequisites
+### Task 1: Enabling and Configuring Filebeat System Module
+1. Navigate to the Filebeat modules directory:
+   ```bash
+   cd /etc/filebeat
 
-Basic knowledge of the ELK stack (Elasticsearch, Logstash, Kibana)
+Enable the system module to collect syslog and authorization logs:
 
-Familiarity with Linux command-line interface
-
-A running ELK stack environment
-
-Filebeat installed on the client machine
-
-Lab Tasks
-Task 1: Enabling and Configuring Filebeat System Module
-Step 1.1: Navigate to Filebeat Directory
-cd /etc/filebeat
-
-Step 1.2: Enable the System Module
 sudo filebeat modules enable system
 
+Edit the configuration file for the system module:
 
-This enables collection of syslog and authentication logs.
-
-Step 1.3: Configure the System Module
 sudo nano modules.d/system.yml
 
-
-Ensure the following configuration is set:
+Ensure the following configuration:
 
 - module: system
   syslog:
@@ -44,72 +42,46 @@ Ensure the following configuration is set:
     enabled: true
     var.paths: ["/var/log/auth.log*"]
 
-Step 1.4: Test Configuration
+Test the configuration for syntax errors:
+
 sudo filebeat test config
-
-
-Confirms there are no syntax errors in the configuration.
-
 Task 2: Start Filebeat and Confirm Data is Sent to Elasticsearch
-Step 2.1: Start Filebeat
+
+Start the Filebeat service:
+
 sudo service filebeat start
 
-Step 2.2: Verify Filebeat Logs
+Verify Filebeat logs:
+
 sudo tail -f /var/log/filebeat/filebeat
 
+Ensure syslog data reaches Elasticsearch:
 
-Ensure there are no errors and logs are being shipped.
-
-Step 2.3: Confirm Data in Elasticsearch
 curl -X GET "localhost:9200/filebeat-*/_search?q=*&pretty"
-
-
-Look for syslog entries in the output to verify successful ingestion.
-
 Task 3: Visualizing Syslog in Kibana
-Step 3.1: Access Discover
 
-Open Kibana web interface
+Navigate to the Kibana web interface and go to Discover.
 
-Navigate to Discover
-
-Step 3.2: Filter Syslog Events
-
-Use the search bar:
+Filter or search syslog messages:
 
 system.syslog.message: "*"
 
+Create visualizations:
 
-Adjust the time range and filters as needed.
+Go to Visualize in Kibana.
 
-Step 3.3: Create Visualizations
-
-Go to Visualize in Kibana
-
-Create charts or graphs using syslog fields
-
-Analyze syslog patterns and trends
+Use syslog data fields to create charts, graphs, and analyze patterns.
 
 Conclusion
 
-By completing Lab 15, you have:
-
-Configured Filebeat to collect syslog and authentication logs
-
-Verified successful ingestion into Elasticsearch
-
-Explored and analyzed syslog data in Kibana
-
-These skills are essential for monitoring, log analysis, and troubleshooting in production environments.
+By completing this lab, you have successfully configured Filebeat to collect and forward syslog data to Elasticsearch. You verified data ingestion and explored syslog events in Kibana. These skills are fundamental for monitoring and analyzing log data in a production environment.
 
 What I Learned
 
-Enabling and configuring Filebeat system module
+How to enable Filebeat system module for syslog collection.
 
-Collecting syslog and authentication logs
+How to configure module paths and test Filebeat configuration.
 
-Validating Filebeat configuration
+How to verify data ingestion in Elasticsearch.
 
-Confirming data ingestion in Elasticsearch
-
-Searching and visualizing syslog data in Kibana
+How to search and visualize syslog events in Kibana.
