@@ -45,3 +45,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 15 — Adding Syslog Data with Filebeat](Lab_15_Adding_Syslog_Data_with_Filebeat.md)
   Configured Filebeat to collect syslog data, ensured proper ingestion into Elasticsearch, and visualized syslog events in Kibana for effective monitoring and analysis.
+
+- [Lab 16 — Data Parsing with Logstash Grok](Lab_16_Data_Parsing_with_Logstash_Grok.md)
+  Learned to configure Logstash with a Grok filter, parse unstructured logs, and forward structured data to Elasticsearch for visualization in Kibana.
