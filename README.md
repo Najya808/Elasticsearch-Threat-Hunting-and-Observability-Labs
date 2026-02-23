@@ -42,3 +42,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 14 — Elasticsearch Security Basics](lab-14-elasticsearch-security-basics.md)
 - Learned to manage user roles and access privileges in Elasticsearch, ensuring secure and controlled access to indices through Kibana.
+
+- [Lab 15 — Adding Syslog Data with Filebeat](Lab_15_Adding_Syslog_Data_with_Filebeat.md)
+  Configured Filebeat to collect syslog data, ensured proper ingestion into Elasticsearch, and visualized syslog events in Kibana for effective monitoring and analysis.
