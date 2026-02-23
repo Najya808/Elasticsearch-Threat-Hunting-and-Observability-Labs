@@ -51,3 +51,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 17 — Ingest Node Pipelines](Lab_17_Ingest_Node_Pipelines.md)
   What I have learned: created ingest pipelines in Elasticsearch, assigned them to indices via Filebeat or direct ingestion, and verified transformed data in Kibana Discover.
+
+- [Lab 18 — Data Retention with ILM (Index Lifecycle Management)](Lab_18_Data_Retention_with_ILM.md)  
+  What I have learned: created and applied ILM policies in Elasticsearch, managed index lifecycle phases, and verified automatic index transitions in Kibana.
