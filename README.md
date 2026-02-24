@@ -60,3 +60,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 20 — Host Overview in Elastic Security](Lab_20_Host_Overview_in_Elastic_Security.md)  
   What I have learned: navigated the Hosts section in Elastic Security, analyzed host activities, applied filters and queries to events, and saved queries for future use.
+
+- [Lab 21 — Network Overview in Elastic Security](Lab_21_Network_Overview_in_Elastic_Security.md)  
+  What I have learned: monitored inbound and outbound connections using Packetbeat, filtered network traffic by IPs and ports in Kibana, and documented suspicious or unexpected connections.
