@@ -1,0 +1,83 @@
+# Lab 24 – Introduction to Detection Rules
+
+##  Objective
+
+- Understand detection rules in Elastic Security
+- Activate prebuilt detection rules
+- Generate test events
+- Verify alert triggering
+
+---
+
+##  Tools Used
+
+- Elastic Security
+- Kibana
+- Linux CLI
+
+---
+
+##  Environment Setup
+
+Accessed Elastic Security via Kibana:
+
+Security → Detections → Rules
+
+---
+
+##  Task 1: Explore Prebuilt Detection Rules
+
+- Navigated to Security → Detections → Rules
+- Reviewed available prebuilt rules
+- Selected: Suspicious Process Execution
+
+Key Concepts:
+- Detection Rules
+- Alert Triggering
+- SOC Monitoring
+
+---
+
+## Task 2: Activate Detection Rule
+
+Enabled rule:
+
+{
+  "rule_id": "suspicious-process-execution",
+  "enabled": true
+}
+
+Confirmed rule status changed to Active.
+
+---
+
+##  Task 3: Generate Test Event
+
+Simulated suspicious process:
+
+```bash
+echo "Simulating suspicious process execution" > /tmp/suspicious.sh
+chmod +x /tmp/suspicious.sh
+/tmp/suspicious.sh
+🚨 Alert Verification
+
+Navigated to:
+
+Security → Detections → Alerts
+
+Verified that alert was triggered successfully.
+
+ Skills Gained
+
+Detection rule management
+
+Alert validation
+
+Threat simulation
+
+SOC workflow understanding
+
+ Conclusion
+
+Successfully activated and tested a prebuilt detection rule in Elastic Security.
+Validated alert generation by simulating suspicious activity.
