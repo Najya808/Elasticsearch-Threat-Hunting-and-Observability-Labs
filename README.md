@@ -63,3 +63,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 21 — Network Overview in Elastic Security](Lab_21_Network_Overview_in_Elastic_Security.md)  
   What I have learned: monitored inbound and outbound connections using Packetbeat, filtered network traffic by IPs and ports in Kibana, and documented suspicious or unexpected connections.
+
+- [Lab 22 — Building Timelines for Investigations](Lab_22_Building_Timelines_for_Investigations.md)  
+  What I have learned: created and managed investigation timelines using open-source tools, added and tagged events with notes, and visualized event sequences to support forensic analysis.
