@@ -66,3 +66,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 22 — Building Timelines for Investigations](Lab_22_Building_Timelines_for_Investigations.md)  
   What I have learned: created and managed investigation timelines using open-source tools, added and tagged events with notes, and visualized event sequences to support forensic analysis.
+
+- [Lab 23 — Threat Hunting with Basic KQL Queries](Lab_23_Threat_Hunting_with_Basic_KQL_Queries.md)  
+  What I have learned: used KQL to perform basic threat hunting, detected suspicious PowerShell activity, filtered logs based on time conditions, and exported queries for collaboration.
