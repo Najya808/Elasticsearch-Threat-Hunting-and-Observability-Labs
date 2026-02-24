@@ -69,3 +69,9 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 23 — Threat Hunting with Basic KQL Queries](Lab_23_Threat_Hunting_with_Basic_KQL_Queries.md)  
   What I have learned: used KQL to perform basic threat hunting, detected suspicious PowerShell activity, filtered logs based on time conditions, and exported queries for collaboration.
+
+- [Lab 24 — Introduction to Detection Rules](Lab_24_Introduction_to_Detection_Rules.md)  
+  What I have learned: explored and activated prebuilt detection rules in Elastic Security, simulated suspicious process execution, and verified alert generation within the SIEM.
+
+- [Lab 25 — Custom Detection Rules](Lab_25_Custom_Detection_Rules.md)  
+  What I have learned: created custom detection rules in Elastic, detected repeated failed login attempts using EQL, configured severity and risk scoring, set automated email alerts, and validated alerts through simulated authentication failures.
