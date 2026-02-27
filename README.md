@@ -120,3 +120,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 40 — Exporting & Sharing Dashboards](Lab_40_Exporting_Sharing_Dashboards.md)  
   What I have learned: exported dashboards as PDF and CSV, generated shareable links, applied read-only permissions, and verified access to ensure secure distribution of dashboards.
+
+- [Lab 41 — Trend Analysis Over Time](Lab_41_Trend_Analysis_Over_Time.md)  
+  What I have learned: created time-series visualizations in Kibana, analyzed data trends over day/night periods, documented spikes and dips, and exported findings as reports to share with stakeholders.
