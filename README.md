@@ -94,3 +94,5 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 - [Lab 31 — APM Fundamentals](Lab_31_APM_Fundamentals.md)  
   What I have learned: installed and integrated Elastic APM agents in a Node.js or Python application, configured the APM server in Kibana, generated traffic to capture transactions, and analyzed response time, throughput, and error metrics through APM dashboards.
 
+- [Lab 32 — Service Map Visualization in APM](Lab_32_Service_Map_Visualization_in_APM.md)  
+  What I have learned: accessed and analyzed the Service Map in APM, identified service dependencies and call flows, examined response time and error metrics per service, and used distributed tracing to detect bottlenecks in a microservices environment.
