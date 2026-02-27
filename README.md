@@ -117,3 +117,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 39 — Historical Threat Analysis](Lab_39_Historical_Threat_Analysis.md)  
   What I have learned: analyzed historical event logs in Kibana, identified suspicious activities through process creation and network connection events, created a timeline of threats, and saved searches for ongoing monitoring and investigation.
+
+- [Lab 40 — Exporting & Sharing Dashboards](Lab_40_Exporting_Sharing_Dashboards.md)  
+  What I have learned: exported dashboards as PDF and CSV, generated shareable links, applied read-only permissions, and verified access to ensure secure distribution of dashboards.
