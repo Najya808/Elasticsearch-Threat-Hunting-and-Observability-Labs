@@ -81,3 +81,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 27 — Basics of Machine Learning in Elastic Security](Lab_27_Basics_of_Machine_Learning_in_Elastic_Security.md)  
   What I have learned: navigated ML features in Elastic Security, enabled a prebuilt anomaly detection job for login activity, monitored job execution, and analyzed detected anomalies to identify abnormal security patterns.
+
+- [Lab 28 — Observability Overview (Logs, Metrics, APM)](Lab_28_Observability_Overview_Logs_Metrics_APM.md)  
+  What I have learned: explored observability concepts including logs, metrics, and APM; configured Prometheus, Elasticsearch, Kibana, and Jaeger; and monitored system performance using open-source tools.
