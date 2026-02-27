@@ -90,3 +90,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 30 — Metrics UI for System Observability](Lab_30_Metrics_UI_for_System_Observability.md)  
   What I have learned: navigated the Metrics UI in an observability tool, monitored CPU, memory, and disk usage trends, interpreted performance spikes and anomalies, and analyzed detailed per-host metrics for system performance troubleshooting.
+
+- [Lab 31 — APM Fundamentals](Lab_31_APM_Fundamentals.md)  
+  What I have learned: installed and integrated Elastic APM agents in a Node.js or Python application, configured the APM server in Kibana, generated traffic to capture transactions, and analyzed response time, throughput, and error metrics through APM dashboards.
