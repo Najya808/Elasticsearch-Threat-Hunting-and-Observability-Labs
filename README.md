@@ -108,3 +108,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 36 — Field Mappings & ECS (Elastic Common Schema)](Lab_36_Field_Mappings_and_ECS.md)  
   What I have learned: mapped custom log fields to ECS equivalents, created an Ingest Node pipeline in Elasticsearch, and verified field mappings in Kibana Security and Observability apps to improve log management and analytics.
+
+- [Lab 37 — Creating a Custom ECS Pipeline](Lab_37_Creating_Custom_ECS_Pipeline.md)  
+  What I have learned: created a custom ECS ingest pipeline in Elasticsearch, applied it to Filebeat or Logstash, and verified ECS fields like client.ip and user.id in Kibana Discover and Security apps to standardize log data for observability and security.
