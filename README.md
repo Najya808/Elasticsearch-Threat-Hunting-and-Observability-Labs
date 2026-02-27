@@ -111,3 +111,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 37 — Creating a Custom ECS Pipeline](Lab_37_Creating_Custom_ECS_Pipeline.md)  
   What I have learned: created a custom ECS ingest pipeline in Elasticsearch, applied it to Filebeat or Logstash, and verified ECS fields like client.ip and user.id in Kibana Discover and Security apps to standardize log data for observability and security.
+
+- [Lab 38 — Kibana Canvas for Reporting](Lab_38_Kibana_Canvas_for_Reporting.md)  
+  What I have learned: navigated Kibana Canvas, added and configured data sources from Elasticsearch indices, created interactive reports using text, shapes, and charts, and designed dynamic dashboards for security or observability monitoring.
