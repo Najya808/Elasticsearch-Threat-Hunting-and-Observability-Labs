@@ -96,3 +96,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 32 — Service Map Visualization in APM](Lab_32_Service_Map_Visualization_in_APM.md)  
   What I have learned: accessed and analyzed the Service Map in APM, identified service dependencies and call flows, examined response time and error metrics per service, and used distributed tracing to detect bottlenecks in a microservices environment.
+
+- [Lab 33 — Synthetic Monitoring Basics](Lab_33_Synthetic_Monitoring_Basics.md)  
+  What I have learned: configured browser-based synthetic monitoring using Heartbeat, simulated user journeys, analyzed monitor results in Kibana Uptime, identified failures and latency issues, and evaluated historical performance trends.
