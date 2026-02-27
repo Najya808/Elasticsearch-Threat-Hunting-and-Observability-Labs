@@ -78,3 +78,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 26 — Alerting & Actions in Kibana](Lab_26_Alerting_and_Actions_in_Kibana.md)  
   What I have learned: created alerts in Kibana, configured actions using an SMTP connector, defined trigger conditions for alerts, and verified email notifications for monitoring critical events.
+
+- [Lab 27 — Basics of Machine Learning in Elastic Security](Lab_27_Basics_of_Machine_Learning_in_Elastic_Security.md)  
+  What I have learned: navigated ML features in Elastic Security, enabled a prebuilt anomaly detection job for login activity, monitored job execution, and analyzed detected anomalies to identify abnormal security patterns.
