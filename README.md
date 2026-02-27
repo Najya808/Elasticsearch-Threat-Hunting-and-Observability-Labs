@@ -135,3 +135,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 46 — Basic EQL (Event Query Language) Usage](Lab_46_Basic_EQL_Usage.md)  
   What I learned: how to construct and run simple EQL sequence queries, refine queries with additional conditions, and analyze event logs for potential security insights.
+
+- [Lab 47 — Maintaining Elasticsearch Performance](Lab_47_Maintaining_Elasticsearch_Performance.md)  
+  What I learned: how to monitor Elasticsearch cluster health, evaluate resource usage (disk, memory, CPU), and implement ILM and index rollover to manage large datasets efficiently.
