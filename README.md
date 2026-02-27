@@ -129,3 +129,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 44 — Index Patterns & Field Customization in Kibana](Lab_44_Index_Patterns_Field_Customization.md)  
   What I learned: formatted numeric fields for readability, created a scripted field to combine `firstName` and `lastName`, and verified changes in Discover and Visualizations.
+
+- [Lab 45 — Simple GeoIP Threat Hunting](Lab_45_Simple_GeoIP_Threat_Hunting.md)  
+  What I learned: enriched IP logs with GeoIP data, visualized login attempts on a coordinate map, and detected unusual activity from unexpected regions using Kibana and Logstash.
