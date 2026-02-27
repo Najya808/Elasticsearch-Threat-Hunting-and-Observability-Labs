@@ -84,3 +84,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 28 — Observability Overview (Logs, Metrics, APM)](Lab_28_Observability_Overview_Logs_Metrics_APM.md)  
   What I have learned: explored observability concepts including logs, metrics, and APM; configured Prometheus, Elasticsearch, Kibana, and Jaeger; and monitored system performance using open-source tools.
+
+- [Lab 29 — Centralized Logs View with Logs UI](Lab_29_Centralized_Logs_View_with_Logs_UI.md)  
+  What I have learned: enabled and configured Filebeat on multiple Linux servers, shipped logs to Elasticsearch, accessed and navigated the Logs UI in Kibana under Observability, filtered logs in real-time using KQL by host and service, and analyzed centralized log data efficiently.
