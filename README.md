@@ -102,3 +102,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 34 — Tracing with Distributed Traces](Lab_34_Tracing_with_Distributed_Traces.md)  
   What I have learned: implemented distributed tracing using OpenTelemetry, instrumented connected microservices, triggered end-to-end transactions, visualized traces in Jaeger, and analyzed latency and service dependencies to identify bottlenecks.
+
+- [Lab 35 — Creating Custom Visualizations for Threat Hunting](Lab_35_Creating_Custom_Visualizations_for_Threat_Hunting.md)  
+  What I have learned: created custom Kibana visualizations for threat hunting, filtered and analyzed security events by user or source IP, monitored high-count activities in short intervals, and organized visualizations into a dashboard for continuous monitoring.
