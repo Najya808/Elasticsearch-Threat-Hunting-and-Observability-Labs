@@ -105,3 +105,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 35 — Creating Custom Visualizations for Threat Hunting](Lab_35_Creating_Custom_Visualizations_for_Threat_Hunting.md)  
   What I have learned: created custom Kibana visualizations for threat hunting, filtered and analyzed security events by user or source IP, monitored high-count activities in short intervals, and organized visualizations into a dashboard for continuous monitoring.
+
+- [Lab 36 — Field Mappings & ECS (Elastic Common Schema)](Lab_36_Field_Mappings_and_ECS.md)  
+  What I have learned: mapped custom log fields to ECS equivalents, created an Ingest Node pipeline in Elasticsearch, and verified field mappings in Kibana Security and Observability apps to improve log management and analytics.
