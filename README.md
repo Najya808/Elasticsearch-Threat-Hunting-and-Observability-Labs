@@ -126,3 +126,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 42 — Using Watcher for Basic Alerting (OSS Basic)](Lab_Watcher_Basic_Alerting.md)  
   What I learned: configured a watch in Kibana Dev Tools to monitor critical errors, set up email/webhook actions, and tested alerts by injecting sample log data.
+
+- [Lab 44 — Index Patterns & Field Customization in Kibana](Lab_44_Index_Patterns_Field_Customization.md)  
+  What I learned: formatted numeric fields for readability, created a scripted field to combine `firstName` and `lastName`, and verified changes in Discover and Visualizations.
