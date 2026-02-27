@@ -87,3 +87,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 29 — Centralized Logs View with Logs UI](Lab_29_Centralized_Logs_View_with_Logs_UI.md)  
   What I have learned: enabled and configured Filebeat on multiple Linux servers, shipped logs to Elasticsearch, accessed and navigated the Logs UI in Kibana under Observability, filtered logs in real-time using KQL by host and service, and analyzed centralized log data efficiently.
+
+- [Lab 30 — Metrics UI for System Observability](Lab_30_Metrics_UI_for_System_Observability.md)  
+  What I have learned: navigated the Metrics UI in an observability tool, monitored CPU, memory, and disk usage trends, interpreted performance spikes and anomalies, and analyzed detailed per-host metrics for system performance troubleshooting.
