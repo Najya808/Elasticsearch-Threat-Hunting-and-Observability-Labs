@@ -138,3 +138,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 47 — Maintaining Elasticsearch Performance](Lab_47_Maintaining_Elasticsearch_Performance.md)  
   What I learned: how to monitor Elasticsearch cluster health, evaluate resource usage (disk, memory, CPU), and implement ILM and index rollover to manage large datasets efficiently.
+
+- [Lab 48 — Handling Large Log Volumes](Lab_48_Handling_Large_Log_Volumes.md)  
+  What I learned: how to manage high-volume log data by creating Elasticsearch data streams, defining rollover conditions, and verifying efficient data indexing for scalable log management.
