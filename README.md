@@ -123,3 +123,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 41 — Trend Analysis Over Time](Lab_41_Trend_Analysis_Over_Time.md)  
   What I have learned: created time-series visualizations in Kibana, analyzed data trends over day/night periods, documented spikes and dips, and exported findings as reports to share with stakeholders.
+
+- [Lab 42 — Using Watcher for Basic Alerting (OSS Basic)](Lab_Watcher_Basic_Alerting.md)  
+  What I learned: configured a watch in Kibana Dev Tools to monitor critical errors, set up email/webhook actions, and tested alerts by injecting sample log data.
