@@ -75,3 +75,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 25 — Custom Detection Rules](Lab_25_Custom_Detection_Rules.md)  
   What I have learned: created custom detection rules in Elastic, detected repeated failed login attempts using EQL, configured severity and risk scoring, set automated email alerts, and validated alerts through simulated authentication failures.
+
+- [Lab 26 — Alerting & Actions in Kibana](Lab_26_Alerting_and_Actions_in_Kibana.md)  
+  What I have learned: created alerts in Kibana, configured actions using an SMTP connector, defined trigger conditions for alerts, and verified email notifications for monitoring critical events.
