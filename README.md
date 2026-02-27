@@ -141,3 +141,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 48 — Handling Large Log Volumes](Lab_48_Handling_Large_Log_Volumes.md)  
   What I learned: how to manage high-volume log data by creating Elasticsearch data streams, defining rollover conditions, and verifying efficient data indexing for scalable log management.
+
+- [Lab 50 — Final Observability & Threat Hunting Dashboard](Lab_50_Final_Observability_Dashboard.md)  
+  What I learned: how to integrate Filebeat, Metricbeat, Packetbeat, ELK Stack, and Kibana to create a unified SOC dashboard. This dashboard provides a "single pane of glass" view for observability, threat hunting, and monitoring system metrics, network flows, and security alerts in real time
