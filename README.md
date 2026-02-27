@@ -99,3 +99,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 33 — Synthetic Monitoring Basics](Lab_33_Synthetic_Monitoring_Basics.md)  
   What I have learned: configured browser-based synthetic monitoring using Heartbeat, simulated user journeys, analyzed monitor results in Kibana Uptime, identified failures and latency issues, and evaluated historical performance trends.
+
+- [Lab 34 — Tracing with Distributed Traces](Lab_34_Tracing_with_Distributed_Traces.md)  
+  What I have learned: implemented distributed tracing using OpenTelemetry, instrumented connected microservices, triggered end-to-end transactions, visualized traces in Jaeger, and analyzed latency and service dependencies to identify bottlenecks.
