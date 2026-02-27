@@ -114,3 +114,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 38 — Kibana Canvas for Reporting](Lab_38_Kibana_Canvas_for_Reporting.md)  
   What I have learned: navigated Kibana Canvas, added and configured data sources from Elasticsearch indices, created interactive reports using text, shapes, and charts, and designed dynamic dashboards for security or observability monitoring.
+
+- [Lab 39 — Historical Threat Analysis](Lab_39_Historical_Threat_Analysis.md)  
+  What I have learned: analyzed historical event logs in Kibana, identified suspicious activities through process creation and network connection events, created a timeline of threats, and saved searches for ongoing monitoring and investigation.
