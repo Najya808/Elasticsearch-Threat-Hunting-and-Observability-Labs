@@ -132,3 +132,6 @@ Hands-on lab exercises from the Alrazzaq internship focusing on Elasticsearch de
 
 - [Lab 45 — Simple GeoIP Threat Hunting](Lab_45_Simple_GeoIP_Threat_Hunting.md)  
   What I learned: enriched IP logs with GeoIP data, visualized login attempts on a coordinate map, and detected unusual activity from unexpected regions using Kibana and Logstash.
+
+- [Lab 46 — Basic EQL (Event Query Language) Usage](Lab_46_Basic_EQL_Usage.md)  
+  What I learned: how to construct and run simple EQL sequence queries, refine queries with additional conditions, and analyze event logs for potential security insights.
